@@ -85,7 +85,7 @@ class Prenota:
 
                 if user_config["request_type"] == "citizenship":
                     try:
-                        driver.get("https://prenotami.esteri.it/Services/Booking/751")
+                        driver.get("https://prenotami.esteri.it/Services/Booking/345")
                         time.sleep(10) #Waiting some time to fully load and skip errors
                         
                         try:
@@ -115,9 +115,9 @@ class Prenota:
                 elif user_config["request_type"] == "passport":
                     try:
                         time.sleep(10) #Waiting some time to fully load and skip errors                        
-                        driver.get("https://prenotami.esteri.it/Services/Booking/1319")#/Booking/671
+                        driver.get("https://prenotami.esteri.it/Services/Booking/345")#/Booking/345
                         time.sleep(5) #Waiting some time to fully load and skip errors
-                        #driver.get("https://prenotami.esteri.it/Services/Booking/671")
+                        #driver.get("https://prenotami.esteri.it/Services/Booking/345")
                         #time.sleep(10) #Waiting some time to fully load and skip errors                       
 
                         try:
